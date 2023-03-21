@@ -12,7 +12,7 @@
   top: 0;
   width: -100%;
   width: 320px;
-  transition: all 1000ms ease-in;
+  transition: all 300ms linear;
   z-index: 100;
   padding: 50px 20px;
   position: fixed;
@@ -23,5 +23,11 @@
   height: 100vh;
   left: -100%;
   top: 0;
-  transition: all 1000ms ease-in;
+  transition: all 300ms linear;
+}
+/* cards */
+.card_hover_1:hover {
+  background: #011a14 !important;
+  transition: all 300ms ease-in;
+  transform: scale3d(2px);
 }

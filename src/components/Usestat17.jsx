@@ -6,10 +6,10 @@ function Usestat17() {
   return (
     <>
       <section>
-        <div className="container py-5">
+        <div className="container py-3">
           <nav className="d-flex justify-content-between align-items-center">
             <a href="/">logo</a>
-            <ul className="d-none d-sm-flex gap-5">
+            <ul className="d-none d-sm-flex gap-5 align-items-center">
               <li>
                 <a href="/">home</a>
               </li>
