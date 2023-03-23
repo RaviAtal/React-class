@@ -1,5 +1,6 @@
 // rfce
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 function Usestat17() {
   const [showNav, setShowNav] = useState(false);
@@ -13,9 +14,12 @@ function Usestat17() {
               <li>
                 <a href="/">home</a>
               </li>
-              <li>
-                <a href="/">about</a>
-              </li>
+              <Link to="about">
+                <li>
+                  <a href="/">about</a>
+                </li>
+              </Link>
+
               <li>
                 <a href="/">feature</a>
               </li>
