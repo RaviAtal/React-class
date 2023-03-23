@@ -1,7 +1,7 @@
 import React from "react";
 import { UseOfCards } from "./UseOfCards";
 import Usestat17 from "./Usestat17";
-import Rough from "./components/Rough";
+// import Rough from "./Rough";
 
 function Main() {
   return (

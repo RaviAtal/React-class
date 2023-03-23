@@ -25,7 +25,6 @@ const Rough = () => {
           </ul>
         </div>
       </div>
-      <div className="min-vh-100"></div>{" "}
     </>
   );
 };

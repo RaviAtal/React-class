@@ -6,6 +6,7 @@ export const UseOfCards = () => {
     <>
       <section className=" bg-secondary">
         <div className="container py-4 py-lg-5">
+          <h1 className=" text-center text-light">Cards</h1>
           <div className="row justify-content-center">
             {carddata
               .map((param) => {
@@ -21,7 +22,7 @@ export const UseOfCards = () => {
                   </div>
                 );
               })
-              .slice(0, 5)}
+              .slice(0, 4)}
           </div>
         </div>
       </section>
