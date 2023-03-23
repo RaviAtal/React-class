@@ -8,7 +8,10 @@ function Main() {
     <>
       {/* ROUGHT of usestate 17-03 */}
       {/* <Rough /> */}
+
+      {/* Nav bar is there in Usestat17 */}
       <Usestat17 />
+
       {/* use of Map in Cards 21-03 */}
       <UseOfCards />
     </>

@@ -12,16 +12,13 @@ function Usestat17() {
             <a href="/">logo</a>
             <ul className="d-none d-sm-flex gap-5 align-items-center">
               <li>
-                <a href="/">home</a>
+                <Link to="/">home</Link>
               </li>
-              <Link to="about">
-                <li>
-                  <a href="/">about</a>
-                </li>
-              </Link>
-
               <li>
-                <a href="/">feature</a>
+                <Link to="/about">about</Link>
+              </li>
+              <li>
+                <Link to="/feat">feature</Link>
               </li>
             </ul>
             <button
