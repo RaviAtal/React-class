@@ -4,6 +4,7 @@ import "bootstrap/dist/js/bootstrap.bundle";
 import { Routes, Route } from "react-router-dom";
 import { About } from "./components/About";
 import { Feat } from "./components/Feat";
+import { FlexGrow } from "./components/FlexGrow";
 import Main from "./components/Main";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Route path="/" element={<Main />} />
         <Route path="/about" element={<About />} />
         <Route path="/feat" element={<Feat />} />
+        <Route path="/flexGrow" element={<FlexGrow />} />
       </Routes>
     </>
   );

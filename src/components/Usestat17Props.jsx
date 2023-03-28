@@ -1,8 +1,7 @@
-// rfce
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
-function Usestat17() {
+function Usestat17Props(props) {
   const [showNav, setShowNav] = useState(false);
   if (showNav) {
     document.body.style.overflow = "hidden";
@@ -11,7 +10,7 @@ function Usestat17() {
   }
   return (
     <>
-      <section className=" bg-warning">
+      <section className=" bg-danger">
         <div className="container py-3">
           <nav className="d-flex justify-content-between align-items-center">
             <Link to="/">logo</Link>
@@ -27,6 +26,10 @@ function Usestat17() {
               </li>
               <li>
                 <Link to="/flexGrow">Flex Grow</Link>
+              </li>
+              <li>
+                <a href="/">{props.text}</a>
+                {/* <a href="/">{props.children}</a> */}
               </li>
             </ul>
             <button
@@ -57,9 +60,9 @@ function Usestat17() {
             </div>
           </nav>
         </div>
-      </section>
+      </section>{" "}
     </>
   );
 }
 
-export default Usestat17;
+export default Usestat17Props;

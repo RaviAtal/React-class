@@ -5,9 +5,9 @@ import Usestat17 from "./Usestat17";
 export const About = () => {
   return (
     <>
-      <Usestat17 />
-      <section className=" bg-success">
-        <div className="container min-vh-100">
+      <section className=" bg-success min-vh-100">
+        <Usestat17 />
+        <div className="container">
           <h1 className="text-light text-center py-5 fw-bolder">About</h1>
           <h2 className="text-light px-5 text-center my-5">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
