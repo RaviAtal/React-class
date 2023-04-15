@@ -35,7 +35,7 @@ const NestingOfMap = () => {
         <div className="container py-4">
           {textValue.map((obj) => {
             return (
-              <div className=" border-1 border m-2 ">
+              <div className="border-1 border m-2 ">
                 <h1>{obj.text}</h1>
                 {obj.btn &&
                   obj.btn.map((o) => (

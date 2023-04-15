@@ -1,4 +1,5 @@
 import React from "react";
+import OnInputBgChange from "./OnInputBgChange";
 
 function Feature() {
   return (
@@ -31,6 +32,7 @@ function Feature() {
               praesentium veritatis, iure velit dolore quas dolorem inventore
               nulla est architecto accusamus.
             </p>
+            <OnInputBgChange />
           </div>
         </div>
       </section>
