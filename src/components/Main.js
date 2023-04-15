@@ -3,6 +3,7 @@ import { UseOfCards } from "./UseOfCards";
 import Usestat17 from "./Usestat17";
 import img_demo from "../assets/images/png/girl_nootpad.png";
 import Usestat17Props from "./Usestat17Props";
+import ButtonForChangeClor from "./ButtonForChangeClor";
 // import Rough from "./Rough";
 
 function Main() {
@@ -19,6 +20,7 @@ function Main() {
 
       {/* use of Map in Cards 21-03 */}
       <UseOfCards />
+      <ButtonForChangeClor />
     </>
   );
 }

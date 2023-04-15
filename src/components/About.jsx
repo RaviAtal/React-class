@@ -1,6 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import Usestat17 from "./Usestat17";
+import NestingOfMap from "./NestingOfMap";
 
 export const About = () => {
   return (
@@ -17,6 +17,7 @@ export const About = () => {
           </h2>
         </div>
       </section>
+      <NestingOfMap />
     </>
   );
 };
