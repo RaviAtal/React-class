@@ -31,5 +31,12 @@
   transition: all 300ms ease-in;
   transform: scale3d(2px);
 }
-
-/* OnInputBgChange */
+/*   */
+.box_custom {
+  height: 400px;
+  width: 100%;
+  background: linear-gradient(white, white) padding-box,
+    linear-gradient(to right, darkblue, darkorchid) border-box;
+  border-radius: 16px;
+  border: 4px solid transparent;
+}

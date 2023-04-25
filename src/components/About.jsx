@@ -1,6 +1,7 @@
 import React from "react";
 import Usestat17 from "./Usestat17";
 import NestingOfMap from "./NestingOfMap";
+import FormSub from "./FormSub";
 
 export const About = () => {
   return (
@@ -18,6 +19,7 @@ export const About = () => {
         </div>
       </section>
       <NestingOfMap />
+      <FormSub />
     </>
   );
 };

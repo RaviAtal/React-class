@@ -6,7 +6,9 @@ import { About } from "./components/About";
 import { Feat } from "./components/Feat";
 import { FlexGrow } from "./components/FlexGrow";
 import Main from "./components/Main";
-
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+ 
 function App() {
   return (
     <>
@@ -18,7 +20,7 @@ function App() {
         <Route path="/feat" element={<Feat />} />
         <Route path="/flexGrow" element={<FlexGrow />} />
       </Routes>
-    </>
+     </>
   );
 }
 
